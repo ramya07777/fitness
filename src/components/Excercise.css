@@ -1,0 +1,82 @@
+.exercise {
+    display: flex;
+    background-color: white;
+      align-items: center;
+      justify-content: center;
+      height: 45rem;
+      width: 38rem;
+      margin-bottom: 5rem;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.exercise__exercise {
+height: 45rem;
+width: 38rem;
+}
+.line {
+    border: 2px solid rgb(255, 115, 0);
+    border-radius: 80px;
+}
+.exercise__bottom {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.button {
+    display: flex;
+
+}
+.body__button {
+    display: flex;
+justify-content: center;
+align-items: center;
+    height: 3rem;
+    padding: 1.5rem;
+    width: max-content;
+    border-radius: 10rem;
+    border: none;
+    background-color: rgb(236, 149, 164);
+    color: white;
+    margin: 1rem;
+}
+.target__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    padding: 1.5rem;
+    width: max-content;
+    border-radius: 10rem;
+    border: none;
+    background-color:rgb(0, 0, 0);
+    color: white;
+    margin: 1rem;
+}
+.exercise__bottom > p {
+    font-size: 2rem;
+    margin: 2rem; 
+}
+
+
+@media (max-width: 61em) {
+    .exercise{
+        height: 50rem;
+    }
+}
+
+
+@media (max-width: 39em) {
+
+    .exercise__image {
+        height: 40rem;
+    }
+    .exercise__bottom > P {
+font-size: 2rem;
+    }
+    .body__button, .target__button {
+font-size: 1.2rem;
+    }
+}

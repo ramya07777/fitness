@@ -1,0 +1,16 @@
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+@media (max-width: 21em) {
+
+    .search__exercise {
+        width: 90%; 
+    }
+
+}

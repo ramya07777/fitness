@@ -1,0 +1,75 @@
+.equip {
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+  
+}
+.equip_equip {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+}
+.target {
+    display: flex;
+    margin-top: 5rem;
+}
+.link {
+    display: flex;
+}
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+font-size: 3rem;
+margin-top: 5rem;
+margin-bottom: 3rem;
+}
+
+@media (max-width: 51em) {
+    .equip .exercise__image {
+width: 25rem;
+height: 30rem;
+    }
+    .equip .exercise__exercise {
+        width: 30rem;  
+    }
+    .equip .body__button {
+        padding: 2rem;
+
+    }
+    .equip .target__button {
+        padding: 2rem;
+    }
+}
+
+
+@media (max-width: 35em) {
+    .equip .exercise {
+       width: 65rem;
+    }
+    .head {
+        font-size: 2.5rem;  
+    }
+
+}
+
+
+@media (max-width: 32em) {
+    .equip .exercise {
+        width: 60rem;
+     }
+}
+
+
+
+
+@media (max-width: 27em) {
+    .equip .exercise {
+        width: 56rem;
+     }
+
+}
+
